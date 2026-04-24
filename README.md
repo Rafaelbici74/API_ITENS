@@ -78,7 +78,3 @@ A API usa o prefixo principal ` /itens` para rotas de itens. Os endpoints dispon
 
 - Verifique a conexão com o banco de dados em `api-mvc/db.js`.
 - Caso queira alterar as rotas ou adicionar novos recursos, edite os arquivos em `src/controllers` e `src/routes`.
-
-## Licença
-
-Projeto de exemplo sem licença definida.
