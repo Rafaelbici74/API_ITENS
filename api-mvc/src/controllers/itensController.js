@@ -21,7 +21,7 @@ exports.getItens = async (req, res) => {
 exports.getItensId = async (req, res) => {
   try {
     const pool = await getConnection();
-    const{id} = req.params;
+    const {id} = req.params;
     
     const result = await pool.request()
     .input("id", sql.Int, id)
